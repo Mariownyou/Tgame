@@ -12,7 +12,6 @@ func _on_Food_body_entered(body):
 func random_pos():
 	var x = randi()% 10 * 16
 	var y = randi()% 10 * 16
-	position.x = x
-	position.y = y
+	position = (Vector2.RIGHT + Vector2.DOWN) * 16
 	
  
