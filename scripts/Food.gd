@@ -14,6 +14,5 @@ func random_pos():
 	var y = randi()% 10 * 16
 	position.x = x
 	position.y = y
-	if position in TileMap.used_cells:
-		random_pos()
+	
  
