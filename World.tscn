@@ -466,3 +466,5 @@ position = Vector2( 16, 16 )
 
 [node name="Enemy" parent="." instance=ExtResource( 1 )]
 position = Vector2( 48, 144 )
+
+[node name="MIR Levona" type="Node" parent="."]
