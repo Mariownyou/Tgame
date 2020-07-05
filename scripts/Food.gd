@@ -12,5 +12,8 @@ func _on_Food_body_entered(body):
 func random_pos():
 	var x = randi()% 10 * 16
 	var y = randi()% 10 * 16
-	
+	position.x = x
+	position.y = y
+	if position in TileMap.used_cells:
+		random_pos()
  
